@@ -19,27 +19,32 @@ body{
 
 /* ==================header ================== */
 
-.header_bg img{
+
+.header{
     width: 100%;
-
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
 }
-.header {
-  width: 100%;
+
+.header_in {
+  max-width: 1495px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: all 0.5s;
+  padding: 20px 10px;
+
 }
 .active_bg {
     width: 100%;
  background-color: #ffffff;
- color: var(--blackColor);
+}
+
+.active_li a{
+    color: #002147;
+
 }
 
 .header_df {
@@ -62,7 +67,6 @@ li{
   text-transform: capitalize;
   font-family:'Lexend-VariableFont_wght' ; 
   font-size: 16px;
-  color: black;
 }
 .header_menu ul,a{
   color: #ffffff;
@@ -84,10 +88,31 @@ background-color: #2eca7f;
 font-family:'Lexend-VariableFont_wght' ; 
 font-size: 16px;
 color: #ffffff;
+transition: all 0.5s;
+}
+
+.header_btn button:hover{
+    background-color: #002147;
 }
 
 .header_search i{
+    color: #ffffff;
   font-size: 30px;
+}
+
+/* =================header bg ==========*/
+.header_bg{
+    /* position: relative; */
+}
+
+.header_bg img{
+    width: 100%;
+}
+
+.header_bgtext{
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
 }
 
 
