@@ -1,20 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ================fond  =========== */
+
+@font-face {
+    font-family:'Lexend-VariableFont_wght' ;
+    src: url("../fonts/Lexend-VariableFont_wght.ttf");
+}
+
+body{
+    overflow-x: hidden;
 }
 
 /* ==================header ================== */
-.header{
-    max-width: 1495px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+
+.header_bg img{
+    width: 100%;
+
+
+}
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+.active_bg {
+    width: 100%;
+ background-color: #ffffff;
+ color: var(--blackColor);
 }
 
-.header_menu ul{
-    display: flex;
+.header_df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:20px;
+}
+
+.header_menu ul {
+  display: flex;
+}
+.header_menu 
+li{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 5px;
+  padding: 25px 17px 25px 0;
+  text-transform: capitalize;
+  font-family:'Lexend-VariableFont_wght' ; 
+  font-size: 16px;
+  color: black;
+}
+.header_menu ul,a{
+  color: #ffffff;
+}
+.header_lico a{
+    color: #2eca7f;
+}
+
+.icon {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.header_btn button{
+padding: 20px 45px;
+border: none;
+border-radius: 40px;
+background-color: #2eca7f;
+font-family:'Lexend-VariableFont_wght' ; 
+font-size: 16px;
+color: #ffffff;
+}
+
+.header_search i{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================About qismi =========================*/
+.about {
+  width: 1587px;
+  background-color: #ffffff;
+}
+.about_in {
+  max-width: 1290px;
+}
+.owl_text {
+  max-width: 615px;
+  height: 407px;
+  border: 1px solid red;
+  /* padding: 50px 50px; */
+  background-color: red;
+  /* position: absolute; */
+  /* top: 10%; */
+  /* right: 0%; */
+  border-radius: 5px;
 }
