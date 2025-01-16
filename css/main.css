@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* About qismi */
+.about {
+  width: 1587px;
+  background-color: #ffffff;
+}
+.about_in {
+  max-width: 1290px;
+}
+.owl_text {
+  max-width: 615px;
+  height: 407px;
+  border: 1px solid red ;
+  /* padding: 50px 50px; */
+  background-color: red;
+  /* position: absolute; */
+  /* top: 10%; */
+  /* right: 0%; */
+  border-radius: 5px;
+}
