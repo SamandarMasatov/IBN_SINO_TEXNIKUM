@@ -1,8 +1,323 @@
-
-
-
-@media (max-width:1024px) {
-  .header_menu{
+@media (max-width: 1024px) {
+/* ======telefon */
+    .telefon_img img {
+        width: 43px;
+    }
+      /* =============header=============== */
+      .header_logo img {
+        width: 59px;
+        background-color: #fff;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .header_search i {
+        color: #ffffff;
+        font-size: 22px;
+    }
+  /* ================burger================ */
+  .burger {
+    display: block;
+  }
+  /* =================header===================== */
+  .header_menu {
     display: none;
   }
+  .header_btn {
+    display: none;
+  }
+}
+
+/* ====================1005 responsivi======================== */
+
+@media (max-width: 1007px) {
+  /* ================header hom=================== */
+  .header_hom img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .header_homtext {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 359px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+  }
+  .header_hombtn {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 562px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+/* =================934px============= */
+
+@media (max-width: 937px) {
+  /* ===============header hom======== */
+  .header_homtext {
+    width: 701px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 297px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+  }
+  .header_hombtn {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 463px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .header_homtext h1 {
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 75px;
+  }
+  .header_homtext p:nth-child(1) {
+    font-family: 'Lexend-VariableFont_wght';
+    color: #fff;
+    font-size: 24px;
+  }
+  .header_many {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 817px) {
+  /* ==============header hom======== */
+
+  .header_homtext h1 {
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 58px;
+  }
+  .header_many {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+  }
+
+  .header_hombtn_2 {
+    color: #002147;
+    font-family: 'Lexend', sans-serif;
+    font-size: 13px;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 40px;
+  }
+  .header_hombtn_1 {
+    margin-right: 20px;
+    background-color: #2eca7f;
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 13px;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 40px;
+  }
+}
+
+/* =================== 760 responsev=========== */
+
+@media (max-width: 761px) {
+  
+  /* ===============header hom=========== */
+
+  .header_homtext {
+    max-width: 605px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 297px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+  }
+  .header_homtext h1 {
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 53px;
+  }
+  .header_hombtn {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 444px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .header_homtext p:nth-child(1) {
+    font-family: 'Lexend-VariableFont_wght';
+    color: #fff;
+    font-size: 19px;
+  }
+}
+
+/* ============== 625  responsev============== */
+
+@media (max-width: 627px) {
+  /* =================header home========== */
+  .header_homtext {
+    max-width: 498px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 297px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+  }
+  .header_hombtn_1 {
+    margin-right: 20px;
+    background-color: #2eca7f;
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 13px;
+    padding: 15px 38px;
+    border: none;
+    border-radius: 40px;
+  }
+  .header_hombtn_2 {
+    color: #002147;
+    font-family: 'Lexend', sans-serif;
+    font-size: 13px;
+    padding: 15px 38px;
+    border: none;
+    border-radius: 40px;
+  }
+}
+
+/* ==================566 responsev============ */
+
+@media (max-width: 566px) {
+  /* ================header hom============ */
+  .header_homtext {
+    max-width: 396px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 297px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+  }
+  .header_homtext h1 {
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 46px;
+  }
+  .header_homtext p:nth-child(1) {
+    font-family: 'Lexend-VariableFont_wght';
+    color: #fff;
+    font-size: 19px;
+  }
+  .header_hombtn {
+    width: 368px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 444px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+}
+
+
+/* ===============425 responsrev============== */
+
+
+@media (max-width:427px ) {
+    /* ===============header hom========= */
+    .header_homtext {
+        max-width: 317px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 3;
+        top: 297px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .header_many {
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 40px;
+        margin-bottom: 30px;
+    }
+    .header_homtext p:nth-child(1) {
+        font-family: 'Lexend-VariableFont_wght';
+        color: #fff;
+        font-size: 16px;
+    }
+    .header_homtext h1 {
+        color: #fff;
+        font-family: 'Lexend', sans-serif;
+        font-size: 43px;
+    }
+}
+
+/* ===============375 responsive ============ */
+
+@media (max-width:376px) {
+    .header_homtext h1 {
+        color: #fff;
+        font-family: 'Lexend', sans-serif;
+        font-size: 41px;
+    }
+    .header_hombtn {
+        width: 276px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 3;
+        top: 444px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .header_hombtn_1 {
+        margin-right: 20px;
+        background-color: #2eca7f;
+        color: #fff;
+        font-family: 'Lexend', sans-serif;
+        font-size: 13px;
+        padding: 12px 19px;
+        border: none;
+        border-radius: 40px;
+    }
+    .header_hombtn_2 {
+        color: #002147;
+        font-family: 'Lexend', sans-serif;
+        font-size: 13px;
+        padding: 11px 23px;
+        border: none;
+        border-radius: 40px;
+    }
 }
