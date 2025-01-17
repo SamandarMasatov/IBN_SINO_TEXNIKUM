@@ -15,7 +15,7 @@ const telefon = document.querySelector('.telefon');
 
 burger.addEventListener('click', () => {
   telefon.classList.add('active');
-  cover.classList.add('cover_active');
+  cover.classList.add('cover_active');  
 });
 
 const telefon_close = document.querySelector('.telefon_close');
