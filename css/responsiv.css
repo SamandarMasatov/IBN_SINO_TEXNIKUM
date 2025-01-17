@@ -1,8 +1,15 @@
-
-
-
-@media (max-width:1024px) {
-  .header_menu{
+@media (max-width: 1024px) {
+  .header_menu {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .about_in {
+    /* max-width: 720px; */
+  }
+  .owl_text {
+    max-width: 572px;
+    padding: 40px 40px;
+    right: 33%;
   }
 }

@@ -9,125 +9,119 @@
 /* ================fond  =========== */
 
 @font-face {
-  font-family: 'Lexend-VariableFont_wght';
-  src: url('../fonts/Lexend-VariableFont_wght.ttf');
+  font-family: "Lexend-VariableFont_wght";
+  src: url("../fonts/Lexend-VariableFont_wght.ttf");
 }
 
 body {
   /* overflow-x: hidden; */
 }
 
-
-
-
-
-
 /* =================telefon========== */
-.telefon{
-    width: 50%;
-    background-color: #fff;
-    height: 100vh;
-    position: fixed;
-    z-index: 10;
-   right: 0;
-   padding:15px 10px;
-   display: none;
-    top: 0;
-   right: -50%;
-   transition: all 0.5s; 
+.telefon {
+  width: 50%;
+  background-color: #fff;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  padding: 15px 10px;
+  display: none;
+  top: 0;
+  right: -50%;
+  transition: all 0.5s;
 }
-.active{
-    right: 0;
+.active {
+  right: 0;
 }
-.telefon_header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;  
-    border-bottom: 1px solid #002147;
+.telefon_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #002147;
 }
 
 .telefon_close {
-    position: relative;
-    width: 30px;
-    height: 30px; 
-    cursor: pointer;
-  }
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
 
-  .telefon_close span {
-    position: absolute;
-    width: 100%; 
-    height: 3px;
-    background-color: black;
-    top: 50%; 
-    transition: all 0.3s ease;
-  }
-.telefon_close span:nth-child(1){
-    transform: rotate(-45deg);
-  }
-.telefon_close span:nth-child(2){
+.telefon_close span {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+.telefon_close span:nth-child(1) {
+  transform: rotate(-45deg);
+}
+.telefon_close span:nth-child(2) {
   transform: rotate(45deg);
 }
 
 /* ==============telefon menu========== */
-.telefon_menu{
-    width: 97%;
-    padding: 15px;
+.telefon_menu {
+  width: 97%;
+  padding: 15px;
 }
-.telefon_select{
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+.telefon_select {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
-.telefon_select p{
-    display: flex;
-    justify-content: space-between  ;
-    align-items: center;
-    color: #2eca7f ;
-    text-transform: capitalize;
-    padding: 15px ;
+.telefon_select p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2eca7f;
+  text-transform: capitalize;
+  padding: 15px;
 }
-.telefon_active ul{
-    display: block;
+.telefon_active ul {
+  display: block;
 }
 
 /* telefon select=========== */
-.telefon_cust{
-    position: relative;
-    padding: 0 5px;
-    display: none;
+.telefon_cust {
+  position: relative;
+  padding: 0 5px;
+  display: none;
 }
-.telefon_select:hover .telefon_cust{
-    display: block;
+.telefon_select:hover .telefon_cust {
+  display: block;
 }
-.telefon_options li{
+.telefon_options li {
   padding: 5px 0;
 }
-   
+
 /* ==================header ================== */
 
 /* ========================header burger========================== */
-.burger{
-    width: 40px;
-    height: 40px;
-    z-index: 5;
-    position: relative;
-   
+.burger {
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  position: relative;
 }
 
-.burger span{
-    position: absolute;
-    width: 100%; 
-    height: 3px;
-    background-color: #fff;
+.burger span {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
 }
 
-.burger span:nth-child(2){
-    margin: 10px 0;
+.burger span:nth-child(2) {
+  margin: 10px 0;
 }
-.burger span:nth-child(3){
-    margin: 20px 0;
+.burger span:nth-child(3) {
+  margin: 20px 0;
 }
 /* ==========header start========== */
 .header {
@@ -146,14 +140,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 10px;
-
 }
 
 /* ===========js====== */
 .active_bg {
   width: 100%;
   background-color: #ffffff;
-
 }
 /* =============js============ */
 .active_li a {
@@ -179,15 +171,16 @@ body {
   display: flex;
   align-items: center;
   text-transform: capitalize;
-  font-family: 'Lexend-VariableFont_wght';
+  font-family: "Lexend-VariableFont_wght";
   font-size: 16px;
 }
 
-.header_menu li, a:hover{
- color: #2eca7f;
+.header_menu li,
+a:hover {
+  color: #2eca7f;
 }
 a {
-    transition: all 0.5s;
+  transition: all 0.5s;
   color: #ffffff;
 }
 .header_color a {
@@ -204,7 +197,7 @@ a {
   border: none;
   border-radius: 40px;
   background-color: #2eca7f;
-  font-family: 'Lexend-VariableFont_wght';
+  font-family: "Lexend-VariableFont_wght";
   font-size: 16px;
   color: #ffffff;
   transition: all 0.5s;
@@ -224,7 +217,6 @@ a {
   position: relative;
 }
 
-
 .header_hom img {
   width: 100%;
   object-fit: cover;
@@ -243,14 +235,14 @@ a {
 }
 
 .header_homtext p:nth-child(1) {
-  font-family: 'Lexend-VariableFont_wght';
+  font-family: "Lexend-VariableFont_wght";
   color: #fff;
   font-size: 28px;
 }
 
 .header_homtext h1 {
   color: #fff;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 90px;
 }
 
@@ -272,12 +264,11 @@ a {
   text-align: center;
 }
 
-
 .header_hombtn_1 {
   margin-right: 20px;
   background-color: #2eca7f;
   color: #fff;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 16px;
   padding: 20px 45px;
   border: none;
@@ -286,15 +277,55 @@ a {
 
 .header_hombtn_2 {
   color: #002147;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 16px;
   padding: 20px 45px;
   border: none;
   border-radius: 40px;
 }
 
-.header_hombtn_1  :hover {
+.header_hombtn_1 :hover {
   background-color: #002147;
+}
+
+/* ===========header custem select =============== */
+
+.header_drob {
+  position: relative;
+}
+
+.custom_select {
+  padding-top: 50px;
+  display: none;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f5f2f2;
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 15px 60px;
+  /* display: none; Select dastlab yashiringan */
+  flex-direction: column; /* Flex elementlarni vertikal joylashtirish */
+  z-index: 10;
+  color: #002147;
+  transition: all 0.5s;
+}
+.options li {
+  border-bottom: 1px dashed;
+  padding-bottom: 10px;
+  color: #7a7a7a;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header_drob:hover .custom_select {
+  display: block;
+}
+.options li:hover {
+  color: black;
 }
 
 /* ===========================About qismi =========================*/
@@ -303,59 +334,65 @@ a {
   background-color: #ffffff;
 }
 .about_in {
+  padding: 100px 0;
+  margin: 0 auto;
   max-width: 1290px;
 }
-.owl_text {
-  max-width: 615px;
-  height: 407px;
-  border: 1px solid red;
-  /* padding: 50px 50px; */
-  background-color: red;
-  /* position: absolute; */
-  /* top: 10%; */
-  /* right: 0%; */
-  border-radius: 5px;
+.about_title_h1 {
+  text-align: center;
+  font-family: "Lexend-VariableFont_wght";
+  font-size: 40px;
+  margin: 0px 0px 0px 20px;
+  color: #212529;
 }
-
-/* ===========header custem select =============== */
-
-.header_drob {
-    position: relative;
-}
-
-.custom_select{
-    padding-top:50px ;
-    display: none;
-
-}
-
-
-.options {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color:#f5f2f2;
-    border: 1px solid #ccc;
-    width: 300px;
-    padding: 15px 60px;
-    /* display: none; Select dastlab yashiringan */
-    flex-direction: column; /* Flex elementlarni vertikal joylashtirish */
-    z-index: 10;    
-    color: #002147;
-    transition: all 0.5s;
-
-}
-.options li{
-    border-bottom: 1px dashed ;
-    padding-bottom: 10px ;
+.about_title_p {
+  text-align: center;
+  font-family: "Lexend-VariableFont_wght";
+  font-size: 17px;
+  margin: 0px 142px;
   color: #7a7a7a;
-  font-size: 14px;
-  cursor: pointer;
 }
-
-.header_drob:hover .custom_select{
-    display: block;
+.owl-1 {
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
 }
-.options li:hover{
-    color: black;
+.owl_text {
+  padding: 50px;
+  max-width: 615px;
+  background-color: #f2f8f1;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  border-radius: 5px;
+  z-index: 2;
 }
+.owl_text span {
+  font-family: "Lexend-VariableFont_wght";
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+}
+.owl_text h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 48px;
+}
+.owl_text p {
+  color: #7a7a7a;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-family: "Lexend-VariableFont_wght";
+}
+.owl-btn {
+  background-color: #2eca7f;
+  padding: 20px 45px;
+  color: white;
+  display: inline-block;
+  border-radius: 40px;
+  position: relative;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* carusel =========================================  */

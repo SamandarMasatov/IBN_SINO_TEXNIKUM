@@ -31,3 +31,4 @@ const telefon = document.querySelector('.telefon')
 burger.addEventListener('click', () =>{
     telefon.classList.toggle('active');
 })
+
