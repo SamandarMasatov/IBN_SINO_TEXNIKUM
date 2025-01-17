@@ -9,23 +9,23 @@
 /* ================fond  =========== */
 
 @font-face {
-    font-family:'Lexend-VariableFont_wght' ;
-    src: url("../fonts/Lexend-VariableFont_wght.ttf");
+  font-family: 'Lexend-VariableFont_wght';
+  src: url('../fonts/Lexend-VariableFont_wght.ttf');
 }
 
-body{
-    overflow-x: hidden;
+body {
+  /* overflow-x: hidden; */
 }
 
 /* ==================header ================== */
 
-
-.header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: all 0.5s;
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.4s;
+  z-index: 4;
 }
 
 .header_in {
@@ -34,108 +34,154 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 10px 10px;
 
 }
+
+/* ===========js====== */
 .active_bg {
-    width: 100%;
- background-color: #ffffff;
+  width: 100%;
+  background-color: #ffffff;
+
 }
-
-.active_li a{
-    color: #002147;
-
+/* =============js============ */
+.active_li a {
+  color: #002147;
+}
+/* =============js========== */
+.search i {
+  color: #002147;
 }
 
 .header_df {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:20px;
+  gap: 20px;
 }
 
 .header_menu ul {
   display: flex;
+  gap: 20px;
 }
-.header_menu 
-li{
+.header_menu li {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  gap: 5px;
-  padding: 25px 17px 25px 0;
   text-transform: capitalize;
-  font-family:'Lexend-VariableFont_wght' ; 
+  font-family: 'Lexend-VariableFont_wght';
   font-size: 16px;
 }
-.header_menu ul,a{
+
+.header_menu ul,
+a {
   color: #ffffff;
 }
-.header_lico a{
-    color: #2eca7f;
+.header_color a {
+  color: #2eca7f;
 }
 
 .icon {
-    font-size: 13px;
-    padding-left: 10px;
+  font-size: 13px;
+  padding-left: 10px;
 }
 
-.header_btn button{
-padding: 20px 45px;
-border: none;
-border-radius: 40px;
-background-color: #2eca7f;
-font-family:'Lexend-VariableFont_wght' ; 
-font-size: 16px;
-color: #ffffff;
-transition: all 0.5s;
+.header_btn button {
+  padding: 20px 45px;
+  border: none;
+  border-radius: 40px;
+  background-color: #2eca7f;
+  font-family: 'Lexend-VariableFont_wght';
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 0.5s;
 }
 
-.header_btn button:hover{
-    background-color: #002147;
+.header_btn button:hover {
+  background-color: #002147;
 }
 
-.header_search i{
-    color: #ffffff;
+.header_search i {
+  color: #ffffff;
   font-size: 30px;
 }
 
 /* =================header bg ==========*/
-.header_bg{
-    /* position: relative; */
-}
-
-.header_bg img{
-    width: 100%;
-}
-
-.header_bgtext{
-    width: 500px;
-    margin: 0 auto;
-    position: absolute;
+.header_bg {
+  position: relative;
 }
 
 
+.header_bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.header_bgtext {
+  width: 700px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.header_bgtext p:nth-child(1) {
+  font-family: 'Lexend-VariableFont_wght';
+  color: #fff;
+  font-size: 28px;
+}
+
+.header_bgtext h1 {
+  color: #fff;
+  font-family: 'Lexend', sans-serif;
+  font-size: 90px;
+}
+
+.header_many {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.header_bgbtn {
+  width: 500px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
+.header_bgbtn_1 {
+  margin-right: 20px;
+  background-color: #2eca7f;
+  color: #fff;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  padding: 20px 45px;
+  border: none;
+  border-radius: 40px;
+}
 
+.header_bgbtn_2 {
+  color: #002147;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  padding: 20px 45px;
+  border: none;
+  border-radius: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header_bgbtn_1  :hover {
+  background-color: #002147;
+}
 
 /* ===========================About qismi =========================*/
 .about {
@@ -155,4 +201,44 @@ transition: all 0.5s;
   /* top: 10%; */
   /* right: 0%; */
   border-radius: 5px;
+}
+
+/* ===========header custem select =============== */
+
+.header_drob {
+    position: relative;
+}
+.custom_select{
+    padding-top:50px ;
+    display: none;
+
+}
+
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:#f5f2f2;
+    border: 1px solid #ccc;
+    width: 300px;
+    padding: 15px 50px;
+    /* display: none; Select dastlab yashiringan */
+    flex-direction: column; /* Flex elementlarni vertikal joylashtirish */
+    z-index: 10;    
+    color: #002147;
+    transition: all 0.5s;
+}
+.options li{
+    border-bottom: 1px dashed ;
+    padding-bottom: 10px ;
+  color: #7a7a7a;
+  cursor: pointer;
+}
+
+.header_drob:hover .custom_select{
+    display: block;
+}
+.options li:hover{
+    color: black;
 }
