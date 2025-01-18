@@ -2,40 +2,39 @@
   .header_menu {
     display: none;
   }
-}
-@media (max-width: 768px) {
+
   .owl_text {
     max-width: 572px;
     padding: 40px 40px;
     right: 33%;
   }
 
-/* ======telefon */
-.telefon_img img {
-  width: 43px;
-}
-/* =============header=============== */
-.header_logo img {
-  width: 59px;
-  background-color: #fff;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.header_search i {
-  color: #ffffff;
-  font-size: 22px;
-}
-/* ================burger================ */
-.burger {
-  display: block;
-}
-/* =================header===================== */
-.header_menu {
-  display: none;
-}
-.header_btn {
-  display: none;
-}
+  /* ======telefon */
+  .telefon_img img {
+    width: 43px;
+  }
+  /* =============header=============== */
+  .header_logo img {
+    width: 59px;
+    background-color: #fff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .header_search i {
+    color: #ffffff;
+    font-size: 22px;
+  }
+  /* ================burger================ */
+  .burger {
+    display: block;
+  }
+  /* =================header===================== */
+  .header_menu {
+    display: none;
+  }
+  .header_btn {
+    display: none;
+  }
 }
 /* ====================1005 responsivi======================== */
 
@@ -96,11 +95,11 @@
   }
   .header_homtext h1 {
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 75px;
   }
   .header_homtext p:nth-child(1) {
-    font-family: "Lexend-VariableFont_wght";
+    font-family: 'Lexend-VariableFont_wght';
     color: #fff;
     font-size: 24px;
   }
@@ -117,7 +116,7 @@
 
   .header_homtext h1 {
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 58px;
   }
   .header_many {
@@ -129,7 +128,7 @@
 
   .header_hombtn_2 {
     color: #002147;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 13px;
     padding: 20px 45px;
     border: none;
@@ -139,7 +138,7 @@
     margin-right: 20px;
     background-color: #2eca7f;
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 13px;
     padding: 20px 45px;
     border: none;
@@ -165,7 +164,7 @@
   }
   .header_homtext h1 {
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 53px;
   }
   .header_hombtn {
@@ -179,7 +178,7 @@
     text-align: center;
   }
   .header_homtext p:nth-child(1) {
-    font-family: "Lexend-VariableFont_wght";
+    font-family: 'Lexend-VariableFont_wght';
     color: #fff;
     font-size: 19px;
   }
@@ -204,7 +203,7 @@
     margin-right: 20px;
     background-color: #2eca7f;
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 13px;
     padding: 15px 38px;
     border: none;
@@ -212,7 +211,7 @@
   }
   .header_hombtn_2 {
     color: #002147;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 13px;
     padding: 15px 38px;
     border: none;
@@ -237,11 +236,11 @@
   }
   .header_homtext h1 {
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 46px;
   }
   .header_homtext p:nth-child(1) {
-    font-family: "Lexend-VariableFont_wght";
+    font-family: 'Lexend-VariableFont_wght';
     color: #fff;
     font-size: 19px;
   }
@@ -280,13 +279,13 @@
     margin-bottom: 30px;
   }
   .header_homtext p:nth-child(1) {
-    font-family: "Lexend-VariableFont_wght";
+    font-family: 'Lexend-VariableFont_wght';
     color: #fff;
     font-size: 16px;
   }
   .header_homtext h1 {
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 43px;
   }
 }
@@ -296,7 +295,7 @@
 @media (max-width: 376px) {
   .header_homtext h1 {
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 41px;
   }
   .header_hombtn {
@@ -313,7 +312,7 @@
     margin-right: 20px;
     background-color: #2eca7f;
     color: #fff;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 13px;
     padding: 12px 19px;
     border: none;
@@ -321,7 +320,7 @@
   }
   .header_hombtn_2 {
     color: #002147;
-    font-family: "Lexend", sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 13px;
     padding: 11px 23px;
     border: none;

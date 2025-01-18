@@ -411,97 +411,73 @@ a {
 .about_in {
   max-width: 1290px;
 }
-.owl_text {
+/* .owl_text {
   max-width: 615px;
   height: 407px;
   border: 1px solid red;
-  /* padding: 50px 50px; */
   background-color: red;
-  /* position: absolute; */
-  /* top: 10%; */
-  /* right: 0%; */
   border-radius: 5px;
-}
+} */
 
 /* ==========================slaider=================== */
-
-.slidere {
-  width: 100%;
-  background-color: #002147;
-  padding: 80px 0 110px 0;
-  position: relative;
-  border: 1px solid red;
+.slidere{
+    width: 100%;
+    background-color: #002147;
+    padding: 100px 0 150px 0;
+    position: relative;
 }
 
-.slider_text {
-  text-align: center;
-
+.slider_text{
+    text-align: center;
 }
 
-.slider_text p:nth-child(1) {
-  font-family: 'Lexend', sans-serif;
-  color: #7a7a7a;
-  font-size: 20px;
-  text-transform: uppercase;
+.slider_text p:nth-child(1){
+    font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+    color: #B9B9BA;
 }
-
-.slider_text p:nth-child(2) {
-  color: #fff;
+.slider_text p:nth-child(2){
+    font-family: 'Lexend', sans-serif;
   font-size: 48px;
-  font-family: 'Lexend', sans-serif;
+    color: #ffffff;
 }
-.item_img img{
-    width: 750px;
+.slider_img{
+    position: absolute;
+    top: 220px;
+    left: 0;
 }
+.owl-carousel .item img{
+  max-width: 750px;
+  height: 300px;
+}
+
 .item_text{
     position: absolute;
     top: 100px;
-    left: 20px;
+    left: 20px ;
     background-color: #fff;
     color: black;
-    text-transform: uppercase;
-    padding: 10px;
-    font-size: 40px;
     font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    padding: 15px 10px;
 }
 .item_btn button{
-    position: absolute;
-    top: 180px;
-    left: 20px;
+   color: #fff;
+    padding: 20px 45px;
     background-color: #2eca7f;
-    padding: 20px 35px;
-    font-family: 'Lexend', sans-serif;
-    color: #fff;
-    font-size: 13px;
-    text-transform: uppercase;
-    border: none;
+    display: inline-block;
     border-radius: 40px;
-
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s;
 }
+
+
 .item_btn button:hover{
     background-color: #002147;
-}
-/* ===========owl carusel========= */
 
-.slider_img {
-  position: absolute;
-  overflow: hidden;
-  animation: scroll 20s linear infinite;
-  top: 250px;
-  border: 2px solid red;
-}
-
-@keyframes  scroll{
-    0% {
-        transform: translateX(0); 
-      }
-      25% {
-        transform: translateX(25%); 
-      }
-      50% {
-        transform: translateX(50%); 
-      }
-      100%{
-        transform: translateX(-300%); 
-      }
 }
