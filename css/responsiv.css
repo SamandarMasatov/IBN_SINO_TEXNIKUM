@@ -35,6 +35,16 @@
   .header_btn {
     display: none;
   }
+  /* =====================sports=================== */
+  .sports{
+    padding: 20px;
+  }
+  .sports_card{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    place-items: center; 
+  }
 }
 /* ====================1005 responsivi======================== */
 
@@ -109,6 +119,11 @@
     margin-bottom: 40px;
     margin-bottom: 30px;
   }
+  /* =============sports card============= */
+  .sports_card {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
 
 @media (max-width: 817px) {
@@ -182,6 +197,13 @@
     color: #fff;
     font-size: 19px;
   }
+  /* ===================sports =================== */
+  .sports_text h2 {
+    color: black;
+    font-size: 42px;
+    font-family: 'Lexend', sans-serif;
+}
+
 }
 
 /* ============== 625  responsev============== */
@@ -217,6 +239,38 @@
     border: none;
     border-radius: 40px;
   }
+  /* ========================sports =================== */
+  .sports_text p:nth-child(1) {
+    font-family: 'Lexend', sans-serif;
+    color: #7A7A7A;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+  .sports_text h2 {
+    color: black;
+    font-size: 35px;
+    font-family: 'Lexend', sans-serif;
+}
+.sport_cards_text h2 {
+    color: #002147;
+    font-size: 24px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 20px;
+}
+.sport_cards_text p {
+    color: #7A7A7A;
+    font-size: 17px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.sport_cards_text a {
+    color: #2eca7f;
+    font-size: 17px;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
 }
 
 /* ==================566 responsev============ */
@@ -288,11 +342,49 @@
     font-family: 'Lexend', sans-serif;
     font-size: 43px;
   }
+
+  /* =================sports============= */
+  .sports_text h2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+.sports_text p:nth-child(1) {
+    font-family: 'Lexend', sans-serif;
+    color: #7A7A7A;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.sport_cards_text h2 {
+    color: #002147;
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 20px;
+}
+.sport_cards_text p {
+    color: #7A7A7A;
+    font-size: 15px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.sport_cards_text a {
+    color: #2eca7f;
+    font-size: 15px;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
 }
 
 /* ===============375 responsive ============ */
 
 @media (max-width: 376px) {
+    /* ===========telefomn========== */
+    /* .telefon{
+        width: ; */
+    /* } */
+    /* ==========header hom=========== */
   .header_homtext h1 {
     color: #fff;
     font-family: 'Lexend', sans-serif;
@@ -326,4 +418,37 @@
     border: none;
     border-radius: 40px;
   }
+
+  /* ========sports============ */
+  .sports_text h2 {
+    color: black;
+    font-size: 22px;
+    font-family: 'Lexend', sans-serif;
+}
+.sports_text p:nth-child(1) {
+    font-family: 'Lexend', sans-serif;
+    color: #7A7A7A;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.sport_cards_text h2 {
+    color: #002147;
+    font-size: 19px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 20px;
+}
+.sport_cards_text p {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.sport_cards_text a {
+    color: #2eca7f;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
 }

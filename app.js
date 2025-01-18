@@ -5,6 +5,7 @@ window.addEventListener('scroll', () => {
   header.classList.toggle('active_bg', window.scrollY > 50);
   header_menu.classList.toggle('active_li', window.scrollY > 50);
   header_search.classList.toggle('search', window.scrollY > 50);
+  burger.classList.toggle('burger_active', window.scrollY >50);
 });
 // ================burger===========
 

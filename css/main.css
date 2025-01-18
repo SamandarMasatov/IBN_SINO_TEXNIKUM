@@ -34,14 +34,14 @@ body {
 
 /* =================telefon========== */
 .telefon {
-  width: 50%;
+  width: 70%;
   background-color: #fff;
   height: 100vh;
   position: fixed;
   z-index: 10;
   padding: 15px 10px;
   top: 0;
-  right: -50%;
+  right: -70%;
   transition: all 0.5s;
   overflow-y: auto;
 }
@@ -181,6 +181,9 @@ span {
   height: 3px;
   background-color: #fff;
 }
+.burger_active span{
+    background-color: #002147;
+}
 
 .burger span:nth-child(2) {
   margin: 10px 0;
@@ -213,7 +216,7 @@ span {
   background-color: #ffffff;
 }
 .header_logo img {
-  width: 80px;
+  width: 70px;
   background-color: #fff;
   border-radius: 50%;
   object-fit: cover;
@@ -421,10 +424,11 @@ a {
 
 /* ==========================slaider=================== */
 .slidere{
-    width: 100%;
+    max-width: 100%;
     background-color: #002147;
     padding: 100px 0 150px 0;
     position: relative;
+    margin-bottom: 300px;
 }
 
 .slider_text{
@@ -447,7 +451,9 @@ a {
     left: 0;
 }
 .owl-carousel .item img{
-  max-width: 750px;
+  /* max-width: 750px;
+   */
+   width: 100%;
   height: 300px;
 }
 
@@ -480,4 +486,79 @@ a {
 .item_btn button:hover{
     background-color: #002147;
 
+}
+
+
+/* =================sports======================= */
+.sports{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #F2F8F1;
+}
+
+.sports_text{
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.sports_text p:nth-child(1){
+    font-family: 'Lexend', sans-serif;
+      color: #7A7A7A;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sports_text h2{
+    color: black;
+    font-size: 48px;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* ================sports card===================== */
+
+.sports_card{
+ max-width: 1275px;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: auto auto auto;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ padding-top: 50px;
+}
+.sports_cards{
+    max-width: 415px;
+    background-color: #fff;
+}
+
+.sports_cards_img img{
+    width: 100%;
+}
+.sport_cards_text{
+    padding: 30px;
+}
+.sport_cards_text h2{
+    color: #002147;
+    font-size: 26px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 20px;
+}
+.sport_cards_text h2:hover{
+    color: #2eca7f;
+}
+.sport_cards_text p{
+    color: #7A7A7A;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.sport_cards_text a{
+    color: #2eca7f;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
 }
