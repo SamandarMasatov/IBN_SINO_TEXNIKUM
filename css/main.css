@@ -181,8 +181,8 @@ span {
   height: 3px;
   background-color: #fff;
 }
-.burger_active span{
-    background-color: #002147;
+.burger_active span {
+  background-color: #002147;
 }
 
 .burger span:nth-child(2) {
@@ -423,142 +423,176 @@ a {
 } */
 
 /* ==========================slaider=================== */
-.slidere{
-    max-width: 100%;
-    background-color: #002147;
-    padding: 100px 0 150px 0;
-    position: relative;
-    margin-bottom: 300px;
+.slidere {
+  max-width: 100%;
+  background-color: #002147;
+  padding: 100px 0 150px 0;
+  position: relative;
+  margin-bottom: 300px;
 }
 
-.slider_text{
-    text-align: center;
+.slider_text {
+  text-align: center;
 }
 
-.slider_text p:nth-child(1){
-    font-family: 'Lexend', sans-serif;
+.slider_text p:nth-child(1) {
+  font-family: 'Lexend', sans-serif;
   font-size: 16px;
-    color: #B9B9BA;
+  color: #b9b9ba;
 }
-.slider_text p:nth-child(2){
-    font-family: 'Lexend', sans-serif;
+.slider_text p:nth-child(2) {
+  font-family: 'Lexend', sans-serif;
   font-size: 48px;
-    color: #ffffff;
+  color: #ffffff;
 }
-.slider_img{
-    position: absolute;
-    top: 220px;
-    left: 0;
+.slider_img {
+  position: absolute;
+  top: 220px;
+  left: 0;
 }
-.owl-carousel .item img{
+.owl-carousel .item img {
   /* max-width: 750px;
    */
-   width: 100%;
+  width: 100%;
   height: 300px;
 }
 
-.item_text{
-    position: absolute;
-    top: 100px;
-    left: 20px ;
-    background-color: #fff;
-    color: black;
-    font-family: 'Lexend', sans-serif;
-    font-size: 40px;
-    padding: 15px 10px;
+.item_text {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  background-color: #fff;
+  color: black;
+  font-family: 'Lexend', sans-serif;
+  font-size: 40px;
+  padding: 15px 10px;
 }
-.item_btn button{
-   color: #fff;
-    padding: 20px 45px;
-    background-color: #2eca7f;
-    display: inline-block;
-    border-radius: 40px;
-    position: absolute;
-    top: 200px;
-    left: 20px;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    transition: all 0.5s;
-}
-
-
-.item_btn button:hover{
-    background-color: #002147;
-
+.item_btn button {
+  color: #fff;
+  padding: 20px 45px;
+  background-color: #2eca7f;
+  display: inline-block;
+  border-radius: 40px;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5s;
 }
 
+.item_btn button:hover {
+  background-color: #002147;
+}
 
 /* =================sports======================= */
-.sports{
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    background-color: #F2F8F1;
+.sports {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #f2f8f1;
 }
 
-.sports_text{
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
+.sports_text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.sports_text p:nth-child(1){
-    font-family: 'Lexend', sans-serif;
-      color: #7A7A7A;
-    font-size: 20px;
-    text-transform: uppercase;
+.sports_text p:nth-child(1) {
+  font-family: 'Lexend', sans-serif;
+  color: #7a7a7a;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-.sports_text h2{
-    color: black;
-    font-size: 48px;
-    font-family: 'Lexend', sans-serif;
+.sports_text h2 {
+  color: black;
+  font-size: 48px;
+  font-family: 'Lexend', sans-serif;
 }
 
 /* ================sports card===================== */
 
-.sports_card{
- max-width: 1275px;
- margin: 0 auto;
- display: grid;
- grid-template-columns: auto auto auto;
- justify-content: center;
- align-items: center;
- gap: 20px;
- padding-top: 50px;
+.sports_card {
+  max-width: 1275px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
 }
-.sports_cards{
-    max-width: 415px;
-    background-color: #fff;
+.sports_cards {
+  max-width: 415px;
+  background-color: #fff;
 }
 
-.sports_cards_img img{
-    width: 100%;
+.sports_cards_img img {
+  width: 100%;
 }
-.sport_cards_text{
-    padding: 30px;
+.sport_cards_text {
+  padding: 30px;
 }
-.sport_cards_text h2{
-    color: #002147;
-    font-size: 26px;
-    font-family: 'Lexend', sans-serif;
-    margin-bottom: 20px;
+.sport_cards_text h2 {
+  color: #002147;
+  font-size: 26px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 20px;
 }
-.sport_cards_text h2:hover{
-    color: #2eca7f;
+.sport_cards_text h2:hover {
+  color: #2eca7f;
 }
-.sport_cards_text p{
-    color: #7A7A7A;
-    font-size: 18px;
-    font-family: 'Lexend', sans-serif;
-    margin-bottom: 15px;
-    line-height: 1.8;
+.sport_cards_text p {
+  color: #7a7a7a;
+  font-size: 18px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.8;
 }
-.sport_cards_text a{
-    color: #2eca7f;
-    font-size: 18px;
-    font-family: 'Lexend', sans-serif;
-    text-decoration: underline;
-    font-weight: 500;
+.sport_cards_text a {
+  color: #2eca7f;
+  font-size: 18px;
+  font-family: 'Lexend', sans-serif;
+  text-decoration: underline;
+  font-weight: 500;
+}
+/* =================sports and================ */
+/* ==========================footer start=============== */
+.footer {
+  width: 100%;
+  background-color: #002147;
+}
+.footer_compus {
+  max-width: 1248px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.footer_text h4 {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 25px;
+}
+.footer_ul a {
+  display: flex;
+  gap: 20px;
+  line-height: 40px;
+  align-items: center;
+}
+
+.footer_ul a,
+i {
+  color: #2eca7f;
+}
+.footer_ul a,
+p {
+  color: #b9b9ba;
+  font-size: 18px;
+  font-family: 'Lexend', sans-serif;
 }

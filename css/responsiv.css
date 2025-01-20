@@ -45,6 +45,17 @@
     align-items: center;
     place-items: center; 
   }
+  .sports_text {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* ===============footer start============ */
+.footer_text{
+    padding: 0 20px;
+  }
 }
 /* ====================1005 responsivi======================== */
 
@@ -76,6 +87,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  /* ==========footer================ */
+ 
+
 }
 
 /* =================934px============= */
@@ -123,6 +138,14 @@
   .sports_card {
     display: grid;
     grid-template-columns: auto;
+  }
+
+  /* ==================footer============= */
+  .footer_compus {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 30px;
   }
 }
 
@@ -271,6 +294,12 @@
     text-decoration: underline;
     font-weight: 500;
 }
+/* ============footer ============= */
+.footer_compus {
+    display: grid;
+    grid-template-columns:  auto;
+    justify-content: start;
+  }
 }
 
 /* ==================566 responsev============ */
