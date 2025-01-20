@@ -56,6 +56,20 @@
 .footer_text{
     padding: 0 20px;
   }
+
+  .footer_canyon{
+    padding: 60px 20px;
+  }
+  .footer_schooltext p {
+    font-size: 14px;
+}
+.footer_link ul {
+    display: flex
+;
+    gap: 20px;
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+}
 }
 /* ====================1005 responsivi======================== */
 
@@ -227,6 +241,12 @@
     font-family: 'Lexend', sans-serif;
 }
 
+/* ==============footer============ */
+
+.footer_canyon{
+    flex-direction: column;
+    gap: 20px;
+}
 }
 
 /* ============== 625  responsev============== */
@@ -337,6 +357,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  /* ================footer ========= */
+  .footer_link ul{
+    padding: 10px;
+  }
 }
 
 /* ===============425 responsrev============== */
@@ -403,6 +427,12 @@
     font-family: 'Lexend', sans-serif;
     text-decoration: underline;
     font-weight: 500;
+}
+/* ==================footer========== */
+.icon_link i {
+    font-size: 16px;
+    color: #002147;
+    background-color: #fff;
 }
 }
 
