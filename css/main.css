@@ -13,6 +13,7 @@
   src: url('../fonts/Lexend-VariableFont_wght.ttf');
 }
 
+
 body {
   overflow-x: hidden;
 }
@@ -561,6 +562,81 @@ a {
 }
 /* =================sports and================ */
 
+
+/* ==================new card================= */
+.new{
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+.new_text{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.new_text p:nth-child(1){
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+}
+.new_text h2{
+    padding-top: 10px;
+    color: #212529;
+    font-size: 48px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.new_feature{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.new_feature_img img{
+    width: 100%;
+}
+.w_feature_text{
+ padding: 0 20px;
+}
+.w_feature_btn{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.w_feature_btn button{
+    background-color: #2eca7f;
+    padding: 4px 8px;    
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+}
+.new_square{
+    color: #7a7a7a;
+    transition: all 0.2s;
+}
+.new_square:hover{
+    color: #2eca7f;
+}
+
+/* ============= */
+.w_feature_subtext h2{
+    font-size: 30px;
+    font-family: 'Lexend', sans-serif;
+    color: #002147;
+    padding-top: 30px;
+}
+.new_data {
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #7a7a7a;
+    padding-top: 30px;
+    line-height: 30px;
+}
 /* ==========================footer start=============== */
 .footer {
   width: 100%;
